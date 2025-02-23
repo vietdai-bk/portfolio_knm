@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 950px;
+  min-height: 899px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -42,7 +42,7 @@
   --radius: 50px;
   height: 583px;
   margin-top: 21px;
-  margin-bottom: 60px;
+  margin-bottom: 9px;
 }
 
 .u-section-1 .u-form-group-1 {
@@ -140,107 +140,67 @@
   min-height: 505px;
 }
 
+.u-section-2 .u-map-1 {
+  width: 625px;
+  height: 464px;
+  margin: 10px -34px 0 auto;
+}
+
 .u-section-2 .u-calendar-1 {
-  width: 570px;
+  width: 589px;
   --radius: 10px;
-  --num-padding-vertical: 17px;
-  --num-hover-color: #d9d9d9;
+  --num-padding-vertical: 18px;
+  --num-hover-color: #adcce9;
   --num-text-hover-default-color: #111111;
-  --num-active-color: #808080;
-  --num-text-active-default-color: #ffffff;
-  --num-color: #ffffff;
+  --num-active-color: #e9f2fa;
+  --num-text-active-default-color: #111111;
+  --num-color: #e9f2fa;
   --num-text-default-color: #111111;
-  --num-border-active-color: #ffffff;
-  --num-border-current-color: #ffffff;
+  --num-border-active-color: #478ac9;
+  --num-border-current-color: #478ac9;
+  --num-border-style: solid;
+  --num-border: 2px;
+  --num-border-radius: 100px;
   --days-padding-vertical: 10px;
-  --days-font-size: 15px;
-  --days-text-transform: none;
+  --days-font-size: 12px;
+  --days-text-transform: uppercase;
+  --year-month-padding-vertical: 10px;
   --year-month-font-size: 24px;
   --year-month-font-weight: 700;
-  --year-month-text-color: #4d4d4d;
-  --year-month-padding-vertical: 20px;
-  --year-month-padding-horizontal: 20px;
-  --num-current-color: #808080;
-  --num-text-current-default-color: #ffffff;
-  --num-font-weight: 500;
-  --num-text-transform: none;
-  --num-font-size: 20px;
-  --days-text-color: #808080;
-  background-image: none;
-  --year-month-border-style: solid;
-  --year-month-border: 2px;
-  --year-month-border-left: 0;
-  --year-month-border-top: 0;
-  --year-month-border-right: 0;
-  --year-month-border-color: #d9d9d9;
-  --days-bold: bold;
-  --days-letter-spacing: 1px;
-  box-shadow: 0px 0px 37px 0px rgba(128,128,128,0.66);
-  --num-border-radius: 50px;
-  --num-border-style: solid;
-  --num-border-color: #ffffff;
-  --num-border: 2px;
-  --num-border-hover-color: #ffffff;
-  margin: 11px auto 0 -32px;
-  padding: 35px 30px;
+  --year-month-bold: bold;
+  --year-month-text-color: #478ac9;
+  --num-current-color: #e9f2fa;
+  --num-text-current-default-color: #111111;
+  --num-border-color: #e9f2fa;
+  --num-border-hover-color: #adcce9;
+  margin: -432px auto 42px -40px;
+  padding: 30px;
 }
 
 .u-section-2 .u-calendar-time-slot-1 {
   border-style: solid;
-  --radius: 7px;
-  padding: 7px 20px;
-}
-
-.u-section-2 .u-map-1 {
-  width: 625px;
-  height: 464px;
-  margin: -466px -34px 30px auto;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-map-1 {
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 990px;
-  }
-
-  .u-section-2 .u-calendar-1 {
-    margin-top: 15px;
-    margin-left: auto;
-  }
-
-  .u-section-2 .u-map-1 {
-    margin-top: 15px;
-    margin-right: auto;
-    margin-bottom: 31px;
-  }
+  --radius: 50px;
+  padding: 12px 25px;
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-calendar-1 {
-    --num-padding-vertical: 15px;
-    --num-font-size: 18px;
-    width: 540px;
-  }
-
   .u-section-2 .u-map-1 {
     width: 540px;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-calendar-1 {
+    width: 540px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-calendar-1 {
-    --num-padding-vertical: 11px;
-    --year-month-font-size: 20px;
-    --num-font-size: 14px;
+  .u-section-2 .u-map-1 {
     width: 340px;
   }
 
-  .u-section-2 .u-map-1 {
+  .u-section-2 .u-calendar-1 {
     width: 340px;
   }
 }
